@@ -22,4 +22,4 @@ jobs:
     steps:
       - name: File contents
         run: |
-          ls
+          ls -l
