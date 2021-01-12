@@ -16,10 +16,10 @@ jobs:
     steps:
       - name: Now it is
         run: |
-          echo date
+          date
   dir_job:
     runs-on: ubuntu-18.04
     steps:
       - name: File contents
         run: |
-          echo ls
+          ls
